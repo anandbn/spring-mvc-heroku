@@ -24,11 +24,6 @@
    <version>${org.springframework.version}</version>
   </dependency>
   <dependency>
-   <groupId>org.springframework</groupId>
-   <artifactId>spring-orm</artifactId>
-   <version>${org.springframework.version}</version>
-  </dependency>
-  <dependency>
    <groupId>taglibs</groupId>
    <artifactId>standard</artifactId>
    <version>1.1.2</version>
@@ -37,26 +32,6 @@
    <groupId>javax.servlet</groupId>
    <artifactId>jstl</artifactId>
    <version>1.2</version>
-  </dependency>
-  <dependency>
-   <groupId>org.hsqldb</groupId>
-   <artifactId>hsqldb</artifactId>
-   <version>2.2.8</version>
-  </dependency>
-  <dependency>
-   <groupId>postgresql</groupId>
-   <artifactId>postgresql</artifactId>
-   <version>9.1-901-1.jdbc4</version>
-  </dependency>
-  <dependency>
-   <groupId>commons-dbcp</groupId>
-   <artifactId>commons-dbcp</artifactId>
-   <version>1.4</version>
-  </dependency>
-  <dependency>
-   <groupId>org.hibernate</groupId>
-   <artifactId>hibernate-entitymanager</artifactId>
-   <version>3.6.10.Final</version>
   </dependency>
   <dependency>
    <groupId>com.github.jsimone</groupId>

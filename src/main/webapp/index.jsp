@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Spring MVC and Hibernate Template</title>
+    <title>Spring MVC  Template</title>
 
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,7 +56,7 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a href="/" class="brand">Spring MVC and Hibernate Template</a>
+          <a href="/" class="brand">Spring MVC Template</a>
           <!--
           IMPORTANT:
           This is Heroku specific markup. Remove to customize.
@@ -73,11 +73,7 @@
           <h1 class="alert alert-success">Your app is ready!</h1>
           
           <div class="page-header">
-            <h1>Get started with your Spring MVC and Hibernate Application</h1>
-          </div>
-          
-          <div style="margin-bottom: 20px">
-            This is a template for a web application that uses Spring MVC and Hibernate. The sample code is a simple CRUD page that manipulates records for a single model object. To try it out go to the <a href="/people/">people page</a>. Then use Eclipse or the Command Line to deploy some changes. 
+            <h1>Get started with your Spring MVC Application</h1>
           </div>
           
         <ul id="tab" class="nav nav-tabs">
@@ -194,11 +190,16 @@
 
             <h2>Step 4. Makes some changes to the app</h2>
             <ol>
-              <li>Open <code>PersonServiceImpl.java</code></li>
-              <li>Query the people in alphabetical order by replacing line 29 with the following two lines:
+              <li>Open <code>index.jsp</code></li>
+              <li>Update some text in the JSP
                 <pre class="once language-java">
-Root&lt;Person&gt; from = c.from(Person.class);
-c.orderBy(em.getCriteriaBuilder().asc(from.get("lastName")));
+&lt;style type="text/css"&gt;
+  body{
+    color: #8D79F2;
+  	background-color:#29264D;
+  }
+	  ....
+&lt;/style>
                 </pre>
               </li>
             </ol>
